@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
@@ -11,7 +11,6 @@ GEM
     eventmachine (1.2.7)
     ffi (1.12.2)
     forwardable-extended (2.6.0)
-    htmlentities (4.3.4)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -36,9 +35,6 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_pages_api (0.1.6)
-      htmlentities (~> 4.3)
-      jekyll (>= 2.0, < 4.0)
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.2.1)
@@ -47,7 +43,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.3)
+    public_suffix (4.0.6)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -65,7 +61,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
-  jekyll_pages_api
 
 BUNDLED WITH
    2.0.1
